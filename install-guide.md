@@ -2,6 +2,10 @@
 
 ## Depuis une machine Windows
 
+Prérequis: Depuis le gestionnaire de tâche de Windows et les performances, il faut vérifier que la virtualisation est activée sinon [suivez ce tutoriel](https://support.microsoft.com/fr-fr/windows/activer-la-virtualisation-sur-windows-c5578302-6e43-4b4b-a449-8ced115f58e1) pour l'activer depuis le BIOS
+
+![virtualisation](./img/virtualisation.jpg)
+
 1. [Installez VirtualBox selon votre OS](https://www.virtualbox.org/wiki/Downloads)
 - Laissez les paramètres par défaut et acceptez les conditions
 2. Installez les images ISO suivants depuis les liens ci-dessous
