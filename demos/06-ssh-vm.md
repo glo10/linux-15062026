@@ -24,7 +24,7 @@ sudo systemctl restart networking # si tout est bon il redémarre sinon il affic
 ```bash
 ip -4 a
 # Depuis le client Windows, ici par exemple la VM via le réseau enp0s8 a l'adresse 192.168.99.101 et mon utilisateur est glodie
-ssh glodie@192.168.99.101 -p 11
+ssh glodie@192.168.99.101 -p 22
 ```
 5. Désormais la VM peut être lancé en mode détachée sans écran sur VirtualBox
 - Cliquez sur la flèche en bas de "Démarrer" pour choisir cette option.
