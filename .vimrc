@@ -13,3 +13,4 @@ set shiftwidth=2     " (auto) Indentation de 2 espaces
 set smartindent      " Active "smart-indent" (améliore l'auto-indentation, notamment en collant du texte déjà indenté)
 set smarttab         " Active "smart-tabs" (améliore l'auto-indentation, Gestion des espaces en début de ligne pour l'auto-indentation)
 set softtabstop=2    " Tabulation = 2 espaces
+set number           " Numération des lignes
