@@ -1,6 +1,8 @@
 0-admin
 .vscode
 isos
-**/corrections
+# **/corrections
 kahoot
 .env
+**/todo.md
+**/daily.md

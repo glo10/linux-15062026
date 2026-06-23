@@ -1,0 +1,20 @@
+# Bonus hors plan de Cours
+
+- LVM pour Logical Volume Manager
+- Kézako ?
+    - Permet d'ajouter à chaud des disques et les affecter à un volume existant pour constituer des volumes de données.
+    Par exemple, la partition /home est bientot pleine, on ajoute un disque et on étend la capacité de /home en ajoutant ce nouveau  volume au groupe de volume associée à /home.
+    - Permet une fusion "virtuelle" des disques et/ou partitions
+1. unmount /dev/sdb1
+2. pcreate nom-du-volume /dev/sdc # volume physique ciblé pour l'utiliser (peut être un disque ou une partition)
+3.  voir toutes les infos sur les volumes physiques associées aux groupes de volume
+- pvdisplay ou pvs
+4. Regroupez nos volumes dans des groupes avec 
+vgcreate nom-du-volume /dev/sdb1
+5. Créez des volumes logiques (partitions en quelque sorte)
+lvcreate --name groupe1 --size 200Go nom-du-volume
+lvcreate --name groupe2 --size 100Go nom-du-volume
+6. Créez des dossiers et formatez
+mkfs -t ext4 /dev/nom-du-volume/groupe1
+mkfs -t ext4 /dev/nom-du-volume/groupe2
+7. Montez les partitions avec mount -t ext4 /dev/nom-du-volume/groupe1 /var/data
