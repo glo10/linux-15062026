@@ -2,13 +2,10 @@
 
 ## Support de cours
 
-- [Cours Linux Administration](https://150626.tshimini.fr/)
+- [Cours Linux Administration exportable en PDF avec l'icône d'impression](https://150626.tshimini.fr/)
+- [Cours en PDF à télécharger depuis le lien Google Drive](https://drive.google.com/file/d/1M8pnMUZVp7DjfPv7JpLQwB1rSJ6cZTHG/view?usp=sharing)
 
 ---
-
-## Autoévaluation avant et après la formation
-
-- [Lien autoévaluation](https://docs.google.com/forms/d/e/1FAIpQLSf7Hww3mc4787UdxG8FWLdd1ZIccuA7Pk5SqtwPvj9htUiivA/viewform?usp=publish-editor)
 
 ## Installation
 
